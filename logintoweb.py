@@ -10,7 +10,7 @@ c = conn.cursor()
 c.execute('''CREATE TABLE IF NOT EXISTS users
              (username text, password text)''')
 
-# Indsæt data i tabellen
+# Indsæt data i tabellene
 c.execute("INSERT INTO users VALUES ('user1', 'password1')")
 c.execute("INSERT INTO users VALUES ('user2', 'password2')")
 c.execute("INSERT INTO users VALUES ('user3', 'password3')")
