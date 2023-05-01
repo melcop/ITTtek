@@ -2,12 +2,12 @@ from sys import exit
 
 def gold_room():
     print("This room is full of gold. How much do you take?")
-    
+    print("Pick a natural number")
     choice = input("> ")
     if "0" in choice or "1" in choice:
         how_much = int(choice)        
     else:
-        dead("Man, learn to type a number.")
+        dead("Man, learn to type a natural number.")
         
     if how_much < 50:
         print("Nice, you're not greedy, you win!")
@@ -21,6 +21,7 @@ def bear_room():
     print("The bear has a bunch of honey.")
     print("The fat bear is in front of another door.")
     print("How are you going to move the bear?")
+    print("take honey, taunt bear or open door ? ")
     bear_moved = False
     
     while True:
@@ -32,6 +33,7 @@ def bear_room():
             print("The bear has moved from the door.")
             print("you can go through it now.")
             bear_moved = True
+            gold_room()
         elif choice == "taunt bear" and bear_moved:
             dead("The bear gets pissed off and chews you leg off.")
         elif choice == "open door" and bear_moved:
