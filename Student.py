@@ -25,10 +25,23 @@ class Student:
         
 student1 = Student("John Doe", "Lygten 16, 2400, NV", "29")
 
-print(student1.name)
-print(student1.age)
-print(student1.address)
+print("Name: ", student1.name)
+print("Age: ", student1.age)
+print("Address: ", student1.address, "\n")
+
+print("----------------------------\n")
+
+print("Person1: ",student1.name, student1.age, student1.address,"\n")
 
 student2 = Student("Jane Doe", "123 Main Street, San Jose, CA", "27")
 
-print(student1.update_address("234 Main Street, Newark, CA"))
+
+student1.update_address("234 Main Street, Newark, CA")
+
+print("After update ", "----------------------------", "After update \n")
+
+print("Person1: ",student1.name, student1.age, student1.address)
+
+print("-----------------------------------------------------\n")
+
+print("Person2: ",student2.name, student2.age, student2.address)
