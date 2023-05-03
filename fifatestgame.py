@@ -9,4 +9,6 @@ sizeofsemifinals = len(semifinals)
 # Her skal vi matche landene med hinanden, til to kampe(a mod b og c mod d)
 for i in semifinals:
     a = random.randrange(0, sizeofsemifinals)
-    print(a)
+    b = a
+    semifinals.remove
+    print(b)
