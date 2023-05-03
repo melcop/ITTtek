@@ -6,7 +6,7 @@ def test(max, incr):
         print(f"At the top i is {i}")
         numbers.append(i)
     
-        i = i + incr
+        i += incr
         print("Numbers now: ", numbers)
         print(f"At the bottom i is {i}")
     

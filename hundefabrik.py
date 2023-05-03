@@ -1,4 +1,4 @@
-from Hund import Hund
+import Hund
 
 # Opret en instans af klassen Hund
 min_hund = Hund("Fido", 3)
