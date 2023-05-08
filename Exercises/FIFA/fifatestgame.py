@@ -6,9 +6,10 @@ semifinals = ["Argentina", "Brasil", "France", "Germany"]
 sizeofsemifinals = len(semifinals)
 #print(sizeofsemifinals)
 
-# Her skal vi matche landene med hinanden, til to kampe(a mod b og c mod d)
+# Este forloop es algoritmo (no está terminado) para elegir que paises se enfrentan
 for i in semifinals:
     a = random.randrange(0, sizeofsemifinals)
     b = a
+    # No está terminado
     semifinals.remove
-    print(b)
+    print(semifinals)
