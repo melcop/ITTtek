@@ -1,6 +1,6 @@
 import mystuff
 class MyStuff(object):
-
+    # Funktionen laver en instance af klassen Mystuff og indholder en predefineret string.
     def __init__(self):
         self.tangerine = "And now a thousand years between"
 
