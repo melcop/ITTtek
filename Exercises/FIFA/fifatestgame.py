@@ -9,7 +9,8 @@ sizeofsemifinals = len(semifinals)
 # Este forloop es algoritmo (no está terminado) para elegir que paises se enfrentan
 for i in semifinals:
     a = random.randrange(0, sizeofsemifinals)
-    b = a
+    print(i)
+    
     # No está terminado
-    semifinals.remove
-    print(semifinals)
+    #semifinals.remove
+    
