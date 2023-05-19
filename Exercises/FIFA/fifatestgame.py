@@ -11,7 +11,8 @@ for i in semifinals:
     a = random.randrange(0, sizeofsemifinals)
     print(i)
     
-    # No está terminado
+    # No está terminado, tengo que borrar el país elegido para que quede uno menos en la lista
     #semifinals.remove
+  
     
 print(i)    
