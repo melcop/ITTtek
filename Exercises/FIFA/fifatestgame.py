@@ -14,3 +14,4 @@ for i in semifinals:
     # No está terminado
     #semifinals.remove
     
+print(i)    
