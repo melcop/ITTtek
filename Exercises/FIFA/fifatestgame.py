@@ -10,10 +10,16 @@ sizeofsemifinals = len(semifinals)
 for i in semifinals:
     a = random.randrange(0, sizeofsemifinals)
     b = random.randrange(0, sizeofsemifinals)
+    aa = random.randrange(0, sizeofsemifinals)
+    bb = random.randrange(0, sizeofsemifinals)
     #print(a, "vs", b)
     c = semifinals[0]
     d = semifinals[1]
+    e = semifinals[2]
+    f = semifinals[3]
     print(c, a,"vs", b ,d)
+    print(e, aa,"vs", bb ,f)
+    
     
     # No está terminado, tengo que borrar el país elegido para que quede uno menos en la lista
     #semifinals.remove
