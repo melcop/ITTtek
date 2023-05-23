@@ -1,0 +1,19 @@
+<!-- The declaration is not an HTML tag. 
+    It is an "information" to the browser about what document type to expect.-->
+    <!DOCTYPE html>
+    <head>
+        <title>
+            <!-- Jinja block tag 
+            All the block tag does is tell the template engine that a child template 
+            may override those placeholders in the template. -->
+            {% block title %}
+            {% endblock %}
+        </title>
+        <!-- link tag med atributterne rel (relation) og href (hyperreference til stylesheet) -->
+        <link rel="stylesheet" href='/static/style.css' />
+    </head>
+    <body>
+        {% block content %}
+        {% endblock %}
+    </body>
+    </html>    

@@ -1,0 +1,15 @@
+/* h1 selector 
+color property og value darksalmon (sætter tekstfarven)
+text-align med value center (centrerer teksten i browservinduet)
+*/
+h1{
+    color: darksalmon;
+    text-align: center;
+}
+/*
+body selector
+background-color property med aliceblue som value (sætter baggrundsfarven)
+*/
+body{
+    background-color: aliceblue;
+}
