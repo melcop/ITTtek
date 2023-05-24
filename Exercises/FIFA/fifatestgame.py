@@ -1,5 +1,6 @@
 import random
-
+country = " "
+countries = []
 # Vi har en list med 4 lande
 semifinals = ["Argentina", "Brasil", "France", "Germany"]
 # Her har vi længden på listen
@@ -19,6 +20,11 @@ for i in semifinals:
     f = semifinals[3]
     print(c, a,"vs", b ,d)
     print(e, aa,"vs", bb ,f)
+    
+    def calculatebestposibility (countries):
+        #here you make the algrithm
+        return country   
+    
     
     
     # No está terminado, tengo que borrar el país elegido para que quede uno menos en la lista
