@@ -22,6 +22,8 @@ for i in semifinals:
     print(e, aa,"vs", bb ,f)
     
     def calculatebestposibility (countries):
+        r = random.randrange(0,sizeofsemifinals)
+        country = semifinals[r]
         #here you make the algrithm
         return country   
     
