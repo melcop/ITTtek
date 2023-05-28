@@ -7,6 +7,13 @@ semifinals = ["Argentina", "Brasil", "France", "Germany"]
 sizeofsemifinals = len(semifinals)
 #print(sizeofsemifinals)
 
+def calculatebestposibility():
+    r = random.randrange(0, 3)
+    country = semifinals[r]
+    #here you make the algrithm
+    return country  
+
+
 # Este forloop es algoritmo (no está terminado) para elegir que paises se enfrentan
 for i in semifinals:
     a = random.randrange(0, sizeofsemifinals)
@@ -21,16 +28,11 @@ for i in semifinals:
     print(c, a,"vs", b ,d)
     print(e, aa,"vs", bb ,f)
     
-    def calculatebestposibility (countries):
-        r = random.randrange(0,sizeofsemifinals)
-        country = semifinals[r]
-        #here you make the algrithm
-        return country   
-    
+ 
+print(calculatebestposibility())
     
     
     # No está terminado, tengo que borrar el país elegido para que quede uno menos en la lista
     #semifinals.remove
   
     
-print(i)    
