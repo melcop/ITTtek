@@ -15,5 +15,7 @@ password = input("Indtast password: ")
 
 if check_login(username, password):
     print("Login succesfuldt")
+    print("bye")
 else:
     print("Login mislykkedes")
+    print("Are you Alice?")
