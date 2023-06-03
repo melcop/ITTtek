@@ -29,7 +29,7 @@ for i in semifinals:
     print(e, aa,"vs", bb ,f)
     
  
-print(calculatebestposibility())
+print(calculatebestposibility(), ": Top 10 FIFA RANKING LIST")
     
     
     # No está terminado, tengo que borrar el país elegido para que quede uno menos en la lista
