@@ -6,6 +6,6 @@ if __name__ == "__main__":
         notification.notify(
             title = "ALERT!!!",
             message = "Take a break! It has been an hour!",
-            timout = 10
+            timeout = 10
         )
         time.sleep(3600)
