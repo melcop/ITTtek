@@ -1,4 +1,7 @@
-for x in range(1000):
-    for y in range(1000):
-        for z in range(1000):
+print("Insert a number, prick!: ")
+q = input()
+p= int(q)
+for x in range(p):
+    for y in range(p):
+        for z in range(p):
             print(x, y, z)
