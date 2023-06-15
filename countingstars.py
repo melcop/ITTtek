@@ -5,3 +5,5 @@ for x in range(p):
     for y in range(p):
         for z in range(p):
             print(x, y, z)
+
+print("Try with threads")
