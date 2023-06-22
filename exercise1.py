@@ -14,5 +14,7 @@ elif a==c and a>b:
     print("a er lig med c og større end b")
 elif c==b and c>a:
     print("c er lig med b og c er større end a")
+elif c==0 and b==0:
+    print("c og b er lig med nul")
 else:
     print("Alle tre er lige høje")
