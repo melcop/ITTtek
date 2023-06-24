@@ -1,7 +1,7 @@
 import sys
 # pass 1 and 2 as argv
 s, bi, he = sys.argv
-
+    
 print(type(bi))
 bi, he = int(bi), int(he)
 
