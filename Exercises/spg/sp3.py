@@ -51,6 +51,7 @@ class æ:
 ins = æ()
 #metoden å kaldes med argumenterne "f" og "coconut"
 ins.å("f", "coconut")
+print(d)
 # printer returværdien af funktionen e()
 print(e())
 # printer returværdien af funktionen ue()
