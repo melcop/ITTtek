@@ -27,7 +27,9 @@ for i in semifinals:
     f = semifinals[3]
     print(c, a,"vs", b ,d)
     print(e, aa,"vs", bb ,f)
-    
+
+    if a>b:
+        print(c,": Winner!")
  
 print(calculatebestposibility(), ": Top 10 FIFA RANKING LIST")
     
