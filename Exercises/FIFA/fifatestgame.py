@@ -30,6 +30,17 @@ for i in semifinals:
 
     if a>b:
         print(c,": Winner!")
+    elif b>a:
+        print(d, ": Winner")
+    else:
+        print("Draw")
+
+    if aa>bb:
+        print(e, ": Winner")
+    elif bb>aa:
+        print(f, ": Winner")
+    else:
+        print("Draw")
  
 print(calculatebestposibility(), ": Top 10 FIFA RANKING LIST")
     
