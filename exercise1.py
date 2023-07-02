@@ -18,3 +18,10 @@ elif c==0 and b==0:
     print("c og b er lig med nul")
 else:
     print("Alle tre er lige høje")
+
+while a>b:
+    print("a rules")
+
+while b>c:
+    print("b rules")
+
