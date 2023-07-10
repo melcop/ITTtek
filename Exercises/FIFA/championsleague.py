@@ -14,7 +14,12 @@ group_f =[]
 group_g =[]
 group_h =[]
 
+sizeofgroup = len(group_a)
 
-print(pot_a)
+for i in group_a:
+    a = random.randrange(0, sizeofgroup)
+    print(a)
+
+#print(pot_a)
 
 # function for random group maker
