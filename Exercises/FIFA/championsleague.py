@@ -14,11 +14,12 @@ group_f =[]
 group_g =[]
 group_h =[]
 
-sizeofgroup = len(group_a)
+sizeofgroup = len(pot_a)
 
-for i in group_a:
+for i in pot_a:
     a = random.randrange(0, sizeofgroup)
-    print(a)
+    print(pot_a[a])
+    #print(a)
 
 #print(pot_a)
 
