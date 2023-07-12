@@ -18,9 +18,10 @@ sizeofgroup = len(pot_a)
 
 for i in pot_a:
     a = random.randrange(0, sizeofgroup)
-    print(pot_a[a])
+    b=pot_a[a]
+    group_a.append(b)
     #print(a)
 
-#print(pot_a)
+print(group_a)
 
 # function for random group maker
