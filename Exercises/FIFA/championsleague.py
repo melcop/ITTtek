@@ -14,6 +14,8 @@ group_f =[]
 group_g =[]
 group_h =[]
 
+group_list = [group_a, group_b, group_c, group_d, group_e, group_f, group_g, group_h]
+
 sizeofgroup = len(pot_a)
 
 for i in pot_a:
