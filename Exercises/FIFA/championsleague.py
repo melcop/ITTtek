@@ -18,6 +18,10 @@ group_list = [group_a, group_b, group_c, group_d, group_e, group_f, group_g, gro
 
 sizeofgroup = len(pot_a)
 
+#Insert teams to group_list
+
+
+#Insert teams to group_a
 for i in pot_a:
     a = random.randrange(0, sizeofgroup)
     b=pot_a[a]
