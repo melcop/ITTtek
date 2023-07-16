@@ -17,9 +17,16 @@ group_h =[]
 group_list = [group_a, group_b, group_c, group_d, group_e, group_f, group_g, group_h]
 
 sizeofgroup = len(pot_a)
-
+                  
+# initializing position
+pos = 0
 #Insert teams to group_list
+# using insert() + loop
+# to insert one list in another
+for i in range(len(pot_a)):
+    group_list.insert(i + pos, pot_a[i])
 
+print(group_list)
 
 #Insert teams to group_a
 for i in pot_a:
@@ -28,6 +35,6 @@ for i in pot_a:
     group_a.append(b)
     #print(a)
 
-print(group_a)
+#print(group_a)
 
 # function for random group maker
