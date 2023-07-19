@@ -1,6 +1,6 @@
 import random, time
 
-p = random.randint(1,1000)
+p = random.randint(220,1000)
 print(p)
 time.sleep(10)
 x = random.randint(25,100)
