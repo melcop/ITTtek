@@ -6,7 +6,7 @@ LED_PIN = 17
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(LED_PIN, GPIO.OUT)
 
-GPIO.output(LED_PIN, GPIO.HIGH)
+GPIO.output(LED_PIN, 140)
 time.sleep(1)
 GPIO.output(LED_PIN, GPIO.LOW)
 
