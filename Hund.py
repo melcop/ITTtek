@@ -11,7 +11,7 @@ class Hund:
 
 # Opret en instans af klassen Hund
 min_hund = Hund("Fido", 3)
-
+print (min_hund)
 # Brug metoden bark på instansen
 min_hund.bark()
 # Glad hund
