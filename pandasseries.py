@@ -6,5 +6,5 @@ print(series)
 
 d= {1:"Mango",2:"Apple",3:"Guava",4:"Kiwi"}
 seriesd = pd.Series(d)
-seriesd[2:4]
+seriesd[1:4]
 print(seriesd)
