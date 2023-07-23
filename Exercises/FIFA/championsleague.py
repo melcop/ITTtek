@@ -2,7 +2,7 @@ import random
 team = " "
 pot_a = ["Manchester City", "FC Barcelona","Napoli", "Bayern Munich", "Sevilla", "PSG", "Benfica", "Feyernood"]
 pot_b = ["Real Madrid", "Manchester United", "Inter de Milan", "Borussia Dortmund", "Atletico de Madrid", "Leipzig", "Porto", "Arsenal"]
-pot_c = ["Shaktar Donetsk", "Salzburg", "Milan", "Lazio", "Red Star",]
+pot_c = ["Shaktar Donetsk", "Salzburg", "Milan", "Lazio", "Red Star", "Real Sociedad", "Celtic", "Newcastle"]
 pot_d = ["Berlin Union", "Lens"]
 
 group_a =[]
@@ -26,7 +26,7 @@ pos = 0
 for i in range(len(pot_a)):
     group_list.insert(i + pos, pot_a[i])
 
-print(group_list)
+#print(group_list)
 
 #Insert teams to group_a
 for i in pot_a:
@@ -35,6 +35,8 @@ for i in pot_a:
     group_a.append(b)
     #print(a)
 
-#print(group_a)
-
+print("pot A: ", pot_a)
+print("pot B: ", pot_b)
+print("pot C: ", pot_c)
+print("pot D: ", pot_d)
 # function for random group maker
