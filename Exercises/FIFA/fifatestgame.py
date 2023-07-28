@@ -48,4 +48,4 @@ print(calculatebestposibility(), ": Top 10 FIFA RANKING LIST")
     # No está terminado, tengo que borrar el país elegido para que quede uno menos en la lista
     #semifinals.remove
   
-print("Perfect game")    
+print("Perfect game. Go!")    
