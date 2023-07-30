@@ -33,7 +33,7 @@ for i in semifinals:
     elif b>a:
         print(d, ": Winner")
     else:
-        print("Draw. Ups!")
+        print("Draw. Only 1 point!")
 
     if aa>bb:
         print(e, ": Winner")
