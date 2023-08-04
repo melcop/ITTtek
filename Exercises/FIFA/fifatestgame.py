@@ -29,16 +29,16 @@ for i in semifinals:
     print(e, aa,"vs", bb ,f)
 
     if a>b:
-        print(c,": Winner!")
+        print(c,": Winner c!")
     elif b>a:
-        print(d, ": Winner")
+        print(d, ": Winner d")
     else:
         print("Draw. Only 1 point!")
 
     if aa>bb:
-        print(e, ": Winner")
+        print(e, ": Winner e")
     elif bb>aa:
-        print(f, ": Winner")
+        print(f, ": Winner f")
     else:
         print("Draw")
  
