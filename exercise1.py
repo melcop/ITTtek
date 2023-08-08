@@ -25,3 +25,5 @@ while a>b:
 while b>c:
     print("b rules")
 
+if a==b or b==c:
+    print("bad that all three are the same value!")
