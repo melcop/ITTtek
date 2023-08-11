@@ -1,6 +1,6 @@
 # klassen o nedarver fra objekt (moder af alle klasser) kunne kaldes Other
 class o(object):
-    """Klasse med 3 metoder
+    """Klasse med tre metoder
     ca() printer og returnerer input tallet ganget med 10
     i() printer resultatet af et bolsk udtryk
     a() printer en streng 
