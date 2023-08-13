@@ -6,7 +6,7 @@ class o(object):
     a() printer en streng 
     """
     def ca(self, foo):
-        """ca() printer og returnerer input tallet ganget med 10"""
+        """ ca() printer og returnerer input tallet ganget med 10"""
         print(f"val is {foo * 10}")
         return foo * 10
     def i(self):
