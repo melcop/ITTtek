@@ -10,7 +10,7 @@ class o(object):
         print(f"val is {foo * 10}")
         return foo * 10
     def i(self):
-        """i() printer resultatet af et bolsk udtryk"""
+        """i() printer resultatet af et bolsk udtryk """
         print(f"""{3 != 0.33 or 
         ("func1" != "func2" and True == True)}""")
     def a(self):
