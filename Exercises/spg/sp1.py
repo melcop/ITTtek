@@ -15,7 +15,7 @@ class o(object):
         ("func1" != "func2" and True == True)}""")
     def a(self):
         """ a() printer en streng"""
-        print("test")
+        print("test ")
         print("What is this?")
 # Klassen c er en komposit med et "has a" relationship som has a "o" Komponent
 class c(object):
