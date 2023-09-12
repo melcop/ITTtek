@@ -6,7 +6,8 @@ texto = input('introduce un texto: ')
 
 for simbolo in texto.lower():
     print(simbolo)
-
+    
+# password
 password = input('Introduce la contraseña: ')
 if password == 'codigo':
     print('Accesso autorizado')
