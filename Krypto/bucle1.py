@@ -1,3 +1,4 @@
+import time;
 for letra in 'DAVID':
     print('La letra es ' + letra)
 
@@ -13,3 +14,5 @@ if password == 'codigo':
     print('Accesso autorizado')
 else:
     print('Acceso denegado')
+    time.sleep(5)
+    print('Go away!')
