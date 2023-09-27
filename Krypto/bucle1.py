@@ -10,7 +10,8 @@ for simbolo in texto.lower():
     
 # password
 password = input('Introduce la contraseña: ')
-if password == 'codigo':
+specialpin = input('Special pin: ')
+if password == 'codigo' and specialpin == '23':
     print('Accesso autorizado')
 else:
     print('Acceso denegado')
