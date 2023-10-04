@@ -16,3 +16,4 @@ print (min_hund)
 min_hund.bark()
 # Glad hund
 min_hund.happy()
+min_hund.bark()
