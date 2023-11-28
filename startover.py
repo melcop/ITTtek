@@ -6,3 +6,11 @@ for i in range(10):
 l =[1,2,3,4]
 
 print(l)
+
+ps=1
+pp=2
+
+if pp>ps:
+    print("korrekt")
+else:
+    print("det er ikke korrekt")
