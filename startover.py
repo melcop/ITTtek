@@ -14,3 +14,8 @@ if pp>ps:
     print("korrekt")
 else:
     print("det er ikke korrekt")
+
+numbers = [1, 10, 5, 3]
+print(numbers)
+numbers.sort()
+print(numbers)
