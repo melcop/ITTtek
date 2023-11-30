@@ -19,3 +19,11 @@ numbers = [1, 10, 5, 3]
 print(numbers)
 numbers.sort()
 print(numbers)
+
+def get_second_element():
+    items = [(4,1), (1,2), (-9,0)]
+    items.sort()
+    print(items[1])
+
+
+get_second_element()
