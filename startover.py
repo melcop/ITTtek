@@ -23,7 +23,7 @@ print(numbers)
 def get_second_element():
     items = [(4,1), (1,2), (-9,0)]
     items.sort()
-    print(items[1])
+    print(items[2])
 
 
 get_second_element()
