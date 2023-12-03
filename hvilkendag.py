@@ -1,13 +1,17 @@
-dag = 3
-if dag == 1:
+import random
+
+dagnr = random.randint(1,6)
+
+
+if dagnr == 1:
     print("Mandag")
-elif dag == 2:
+elif dagnr == 2:
     print("Tirsdag")
-elif dag == 3:
+elif dagnr == 3:
     print("Onsdag")
-elif dag == 4:
+elif dagnr == 4:
     print("Torsdag")
-elif dag == 5:
+elif dagnr == 5:
     print("Fredag")
 else:
     print("Weekend")
