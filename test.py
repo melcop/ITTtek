@@ -7,3 +7,8 @@ print(list1 != list2)
 lst =[10, 25, 4, 13, 11]
 sorted(lst)
 print(lst)
+
+list3 = [23, 24, 2]
+list4 = [22, 1, 9, 2]
+
+print(list3 < list4)
