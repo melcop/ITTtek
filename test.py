@@ -12,3 +12,7 @@ list3 = [23, 24, 2]
 list4 = [22, 1, 9, 2]
 
 print(list3 < list4)
+
+my_list = [1, 2, 3, 4, 5]
+result = my_list[1:4:2]
+print(result)
