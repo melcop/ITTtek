@@ -62,3 +62,11 @@ elif num > 1:
         print(num, "is not a prime number")
     else:
         print(num, "is a prime number")
+
+print("----------------------------------")
+s = 1
+d = 2    
+
+if s<2:
+    print("grow up")
+    print(round(1/3, d))
