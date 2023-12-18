@@ -70,3 +70,11 @@ d = 2
 if s<2:
     print("grow up")
     print(round(1/3, d))
+
+print("----------------------------------")
+a=1
+b=2
+if a>b:
+    print("b er større")
+else:
+    print("a er størst")
