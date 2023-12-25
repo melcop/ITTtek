@@ -105,3 +105,11 @@ print("----------------------------------")
 num1 = num2 = (10, 20, 30, 40, 50)
 
 print(isinstance(num1, tuple))
+
+print("----------------------------------")
+def fun(a, *args, s='!'):
+    print(a, s)
+    for i in args:
+        print(i, s)
+
+fun(100)
