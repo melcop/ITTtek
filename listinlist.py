@@ -1,3 +1,5 @@
+from geopy.geocoders import Nominatim
+
 data = [5, "book", [34, "hello"], True]
 print(data)
 print(data[2])
@@ -113,3 +115,13 @@ def fun(a, *args, s='!'):
         print(i, s)
 
 fun(100)
+
+print("----------------------------------")
+geolocator = Nominatim(user_agent="geoapiExercises")
+
+a=input("Enter zipcode : ")
+zipcode=a
+location = geolocator.geocode(zipcode)
+print("Zipcode: ",zipcode)
+print("Details of the Zipcode: ")
+print(location)
