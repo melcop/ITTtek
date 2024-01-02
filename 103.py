@@ -13,4 +13,8 @@ print("----------------------------")
 
 for _ in range(5):  # Skifter "5" ud med det ønskede antal tilfældige tal
     random_number = random.randint(1, 100)
+    random_number2 = random.randint(1, 100) * 2
     print(random_number)
+    print("gange 2: ", random_number2)
+    
+print("----------------------------") 
