@@ -18,3 +18,10 @@ for _ in range(5):  # Skifter "5" ud med det ønskede antal tilfældige tal
     print("gange 2: ", random_number2)
     
 print("----------------------------") 
+
+def fun(x, y):
+    if x == 0:
+        return y
+    else:
+        return fun(x-1, x * y)
+print(fun(4,2))
