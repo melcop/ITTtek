@@ -25,3 +25,8 @@ def fun(x, y):
     else:
         return fun(x-1, x * y)
 print(fun(4,2))
+print("----------------------------") 
+s = set('CLC')
+t = list(s)
+t =t[::-1]
+print(t)
