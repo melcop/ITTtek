@@ -30,3 +30,7 @@ s = set('CLC')
 t = list(s)
 t =t[::-1]
 print(t)
+
+print("----------------------------") 
+p='Love for coding'
+print(p[4],p[5])
