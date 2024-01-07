@@ -34,3 +34,7 @@ print(t)
 print("----------------------------") 
 p='Love for coding'
 print(p[4],p[5])
+
+print("----------------------------") 
+aList = ["Coding", [4, 8, 12, 16]]
+print(aList[1][3])
