@@ -38,3 +38,10 @@ print(p[4],p[5])
 print("----------------------------") 
 aList = ["Coding", [4, 8, 12, 16]]
 print(aList[1][3])
+
+print("----------------------------") 
+dict_a = {"eggs": 1.50, "milk": 1.2, "bacon": 2.99}
+dict_b = {"bread": 2.20, "jam": 4.87}
+dict_c = {}
+
+print(len(dict_a))
