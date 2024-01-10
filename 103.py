@@ -74,3 +74,10 @@ elif num > 1:
         print(num, "is not a prime number")
     else:
         print(num, "is a prime number")
+
+print("----------------------------")
+a=1
+b=2
+print(a)
+a=b
+print(b)
