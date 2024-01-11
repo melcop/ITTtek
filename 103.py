@@ -76,8 +76,10 @@ elif num > 1:
         print(num, "is a prime number")
 
 print("----------------------------")
-a=1
-b=2
+a=15
+b=10
 print(a)
+result = a if a < b else b
+print(result)
 a=b
 print(b)
