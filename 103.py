@@ -83,3 +83,11 @@ result = a if a < b else b
 print(result)
 a=b
 print(b)
+
+print("----------------------------")
+user_in = str(input("Enter: "))
+text = user_in.split()
+aco = " "
+for i in text:
+    aco =aco+str(i[0].upper())
+print(aco)
