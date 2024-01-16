@@ -14,6 +14,6 @@ def countdown(seconds):
     winsound.Beep(1000, 12000)  # Juster frekvens (1000 Hz) og varighed (1000 ms) efter behov
 
 # Angiv antallet af sekunder for countdown
-countdown_time = 10  # Ændr dette til den ønskede varighed
-
+countdown_time = 420  # Ændr dette til den ønskede varighed
+print("tid er sat til 7 minutter og bip lyd er sat til 12 sekonder")
 countdown(countdown_time)
