@@ -1,7 +1,7 @@
 counter1 = 0
 counter2 = 0
 
-while counter1 <= 20 or counter2 <= 30:
+while counter1 <= 20 or counter2 <= 25:
     # Opdater summen
     total_sum = counter1 + counter2
 
@@ -13,5 +13,5 @@ while counter1 <= 20 or counter2 <= 30:
         counter1 += 1
 
     # Opdater tæller 2 (op til 30)
-    if counter2 < 30:
-        counter2 += 1
+    if counter2 < 25:
+        counter2 += 2
