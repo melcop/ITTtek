@@ -6,5 +6,8 @@ class Person:
         self.surname = surname
         self.tel = tel
 
+    def full_name(self):
+        return self.first_name + " " + self.surname
+
 p = Person("Simon", "Nielsen", "12344567")
 print(p.first_name)
