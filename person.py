@@ -11,3 +11,4 @@ class Person:
 
 p = Person("Simon", "Nielsen", "12344567")
 print(p.first_name)
+print(p.surname)
