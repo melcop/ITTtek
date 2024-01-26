@@ -3,6 +3,8 @@ num3 = [3, 4, 5]
 length = len(nums)
 print(nums > num3)
 print(length)
+num2 = nums + num3
+print(num2)
 
 # Test 2 - Dictionary
 x = {1: "a", 2: "b"}
