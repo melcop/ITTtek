@@ -28,16 +28,22 @@ for i in semifinals:
     print(c, a,"vs", b ,d)
     print(e, aa,"vs", bb ,f)
 
+    winners = []
+
     if a>b:
+        winners.append(c)
         print(c,": Winner c!")
     elif b>a:
         print(d, ": Winner d")
+        winners.append(d)
     else:
         print("Draw. Only 1 point!")
 
     if aa>bb:
+        winners.append(e)
         print(e, ": Winner e")
     elif bb>aa:
+        winners.append(f)
         print(f, ": Winner f")
     else:
         print("Draw")
@@ -47,5 +53,5 @@ print(calculatebestposibility(), ": Top 10 FIFA RANKING LIST")
     
     # No está terminado, tengo que borrar el país elegido para que quede uno menos en la lista
     #semifinals.remove
-  
+print(winners) 
 print("Perfect game. Go!")    
