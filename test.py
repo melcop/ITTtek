@@ -17,3 +17,6 @@ print(list3 < list4)
 my_list = [1, 2, 3, 4, 5]
 result = my_list[1:4:2]
 print(result)
+
+for i in range(11, 2, -3):
+    print(i)
