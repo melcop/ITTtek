@@ -19,4 +19,5 @@ result = my_list[1:4:2]
 print(result)
 
 for i in range(11, 2, -3):
-    print(i)
+    for j in range(10, 2, -2):
+        print(i+j)
