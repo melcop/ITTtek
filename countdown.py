@@ -11,7 +11,7 @@ def countdown(seconds):
 
     print("Countdown færdig!")
     # Afspil en lyd ved afslutningen af countdown
-    winsound.Beep(1000, 12000)  # Juster frekvens (1000 Hz) og varighed (1000 ms) efter behov
+    winsound.Beep(700, 12000)  # Juster frekvens (1000 Hz) og varighed (1000 ms) efter behov
 
 # Angiv antallet af sekunder for countdown
 countdown_time = 420  # Ændr dette til den ønskede varighed
