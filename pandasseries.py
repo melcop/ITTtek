@@ -5,6 +5,8 @@ series[1:5] = 70
 print(series)
 
 d= {1:"Mango",2:"Apple",3:"Guava",4:"Kiwi"}
+e = {1:"esb", 2:"rpi", 3:"arduino"}
 seriesd = pd.Series(d)
-seriesd[1:4]
-print(seriesd)
+seriese = pd.Series(e)
+resultlist = seriesd[1:4] + seriese[1:3]
+print(resultlist)
