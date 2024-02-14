@@ -26,7 +26,7 @@ pos = 0
 for i in range(len(pot_a)):
     group_list.insert(i + pos, pot_a[i])
 
-#print(group_list)
+print(group_list)
 
 #Insert teams to group_a
 for i in pot_a:
