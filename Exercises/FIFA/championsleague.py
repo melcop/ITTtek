@@ -72,5 +72,5 @@ for i, liste in enumerate(group_list):
 #print("pot B: ", pot_b)
 #print("pot C: ", pot_c)
 #print("pot D: ", pot_d)
-#print(group_list)
+print(group_list)
 # function for random group maker
