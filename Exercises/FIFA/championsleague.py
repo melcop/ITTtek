@@ -68,7 +68,7 @@ for i, liste in enumerate(group_list):
 #    group_a.append(b)
     #print(a)
 
-#print("pot A: ", pot_a)
+print("pot A: ", pot_a)
 #print("pot B: ", pot_b)
 #print("pot C: ", pot_c)
 #print("pot D: ", pot_d)
