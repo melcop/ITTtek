@@ -74,3 +74,8 @@ print("pot A: ", pot_a)
 #print("pot D: ", pot_d)
 print(group_list)
 # function for random group maker
+
+# 1) Der skal laves en DB og forbindelse dertil.
+# 2) Algoritmen som skal udregne størst sandsynlighed ud fra sidste to års resultater fra CL.
+# 3) Brug dele af java projektet gruppespillet.
+
