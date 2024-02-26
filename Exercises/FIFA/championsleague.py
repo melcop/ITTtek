@@ -79,3 +79,33 @@ print(group_list)
 # 2) Algoritmen som skal udregne størst sandsynlighed ud fra sidste to års resultater fra CL.
 # 3) Brug dele af java projektet gruppespillet.
 
+# Eksempel på et gruppespil
+
+# Opret en kampplan
+kampplan = []
+
+r_tal = random.randint(0, 6)
+print(r_tal)
+r_tal_2 = random.randint(0, 6)
+print(r_tal_2)
+
+# For hver spiller
+for spiller in group_1:
+    # Opret en midlertidig liste med modstandere, som er de resterende spillere
+    modstandere = group_1.copy()
+    modstandere.remove(spiller)
+    
+    # For hver kamp (3 kampe)
+    for _ in range(3):
+        # Vælg tilfældigt en modstander uden gentagelse
+        modstander = random.sample(modstandere, 1)[0]
+        
+        # Tilføj kampen til kampplanen
+        kampplan.append((spiller, modstander))
+        
+        # Fjern den valgte modstander fra listen over tilgængelige modstandere
+        modstandere.remove(modstander)
+
+# Vis kampplanen
+for kamp in kampplan:
+    print(f"{kamp[0]}"+ str(r_tal) + "vs" + str(r_tal_2) + "{kamp[1]}")
