@@ -108,4 +108,4 @@ for spiller in group_1:
 
 # Vis kampplanen
 for kamp in kampplan:
-    print(f"{kamp[0]}"+ str(r_tal) + "vs" + str(r_tal_2) + "{kamp[1]}")
+    print(f"{kamp[0]} "+ str(r_tal) + " vs " + str(r_tal_2) + f" {kamp[1]}")
