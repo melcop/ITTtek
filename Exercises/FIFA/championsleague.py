@@ -84,6 +84,7 @@ print(group_list)
 # Opret en kampplan
 kampplan = []
 
+# Randomgeneratoren skal laves bedre, den skal kunne give forskellige tal til de forskelligekampe
 r_tal = random.randint(0, 6)
 print(r_tal)
 r_tal_2 = random.randint(0, 6)
