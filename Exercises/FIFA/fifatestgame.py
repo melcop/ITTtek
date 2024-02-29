@@ -48,10 +48,21 @@ for i in semifinals:
     else:
         print("Draw")
  
-print(calculatebestposibility(), ": Top 10 FIFA RANKING LIST")
+#print(calculatebestposibility(), ": Top 10 FIFA RANKING LIST")
     
     
     # No está terminado, tengo que borrar el país elegido para que quede uno menos en la lista
     #semifinals.remove
 print(winners) 
+r = random.randrange(0, 3)
+s1 = winners[0]
+s2 = winners[1]
+r1 = random.randrange(5)
+r2 = random.randrange(5)
+print(s1, r1,"vs", r2 ,s2)
+if r1>r2:
+    print("winner is: ", s1)
+elif r2>r1:
+    print("winner is: ", s2)
+print()
 print("Perfect game. Go!")    
