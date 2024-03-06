@@ -1,6 +1,6 @@
 import textwrap
 
-text = "Python is useful, but C is powerful"
+text = "Python is useful, but C is powerful, maybe"
 
 # Wrap teksten to en specifik bredde
 wrapped_text = textwrap.wrap(text, width = 12)
