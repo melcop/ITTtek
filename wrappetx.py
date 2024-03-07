@@ -8,3 +8,5 @@ wrapped_text = textwrap.wrap(text, width = 12)
 # Print wrap tekst ud
 for line in wrapped_text:
     print(line)
+    
+print(wrapped_text)
