@@ -1,6 +1,6 @@
 import random
 
-dagnr = random.randint(1,7)
+dagnr = random.randint(1,8)
 
 
 if dagnr == 1:
@@ -17,3 +17,4 @@ elif dagnr == 6:
     print("Saturday")
 else:
     print("Sunday")
+    print(dagnr)
