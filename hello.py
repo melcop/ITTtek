@@ -7,3 +7,4 @@ print(a-b)
 b=2
 print(a//b)
 print(b//a)
+print(a//a)
