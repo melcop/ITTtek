@@ -14,3 +14,4 @@ print(a//b//b)
 d = {'Milk': 1, 'Soap': 2, 'Towel': 3}
 if 'Soap' in d:
     print(d['Soap'])
+print(d.get(2))
