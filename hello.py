@@ -15,3 +15,4 @@ d = {'Milk': 1, 'Soap': 2, 'Towel': 3}
 if 'Soap' in d:
     print(d['Soap'])
 print(d.get(2))
+print(d.get('Milk'))
