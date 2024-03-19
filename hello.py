@@ -17,3 +17,4 @@ if 'Soap' in d:
 print(d.get(2))
 print(d.get('Milk'))
 print(d.pop('Soap'))
+print(d)
