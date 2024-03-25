@@ -1,7 +1,7 @@
 import random
 
 # Oprindelig liste med 5 elementer
-original_list = ["A", "B", "C", "D", "E"]
+original_list = ["A", "B", "C", "D", "E","F"]
 
 # Tomme lister til at fordele elementer til
 list_1 = []
