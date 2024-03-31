@@ -11,3 +11,15 @@ dep.append('aaa')
 print(dep)
 
 print(dep.count(200))
+
+dap = []
+
+dap.append(100)
+dap.append(150)
+dap.append("ccc")
+
+print("----------")
+print(dap)
+print("----------")
+dep.append(dap)
+print(dep)
