@@ -7,4 +7,5 @@ print(list(d))
 
 print("---------")
 d.append(e)
+d.insert(1, 11)
 print(d)
