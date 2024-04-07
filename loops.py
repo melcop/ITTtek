@@ -7,4 +7,6 @@ while tal > 0:
     print(total)
     if total < 10:
         print("Tjek, tal er mindre end 10")
+    else:
+        print("Mere end 10")
     tal -= 1
