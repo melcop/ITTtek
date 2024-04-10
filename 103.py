@@ -43,7 +43,7 @@ print("----------------------------")
 dict_a = {"eggs": 1.50, "milk": 1.2, "bacon": 2.99}
 dict_b = {"bread": 2.20, "jam": 4.87}
 dict_c = {}
-
+print(dict_b)
 print(len(dict_a))
 
 
