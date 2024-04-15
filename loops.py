@@ -9,4 +9,4 @@ while tal > 0:
         print("Tjek, tal er mindre end 10")
     else:
         print("Mere end 10")
-    tal -= 1
+    tal -= -1
