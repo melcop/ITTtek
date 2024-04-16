@@ -9,7 +9,7 @@ print(a//b)
 print(b//a)
 print(a//a)
 print(b//b)
-print(a//b//b)
+print(a//b//b//a)
 
 d = {'Milk': 1, 'Soap': 2, 'Towel': 3}
 if 'Soap' in d:
