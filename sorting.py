@@ -27,3 +27,4 @@ print("Original array:", arr)
 sorted_arr = selection_sort(arr)
 
 print("Sorted array:", sorted_arr)
+print(arr.count)
