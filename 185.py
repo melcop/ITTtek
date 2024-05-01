@@ -15,3 +15,6 @@ print(x)
 y = [2, 5, 6]
 x.append(y)
 print(x)
+y.pop(2)
+print("------------------")
+print(x)
