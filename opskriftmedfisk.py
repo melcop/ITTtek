@@ -20,7 +20,7 @@ def choose_protein():
         return random.choice(fishes)
 
 # Liste med grøntsager
-vegetables = ["broccoli", "gulerødder", "spinat", "tomater", "aubergine", "peberfrugt"]
+vegetables = ["broccoli", "gulerødder", "squash","spinat", "tomater", "aubergine", "peberfrugt"]
 
 # Liste med kød
 meats = ["kylling", "oksekød", "svinekød", "lam"]
