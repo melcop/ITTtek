@@ -20,7 +20,7 @@ def choose_protein():
         return random.choice(fishes)
 
 # Liste med grøntsager
-vegetables = ["broccoli", "gulerødder", "squash","spinat", "tomater", "aubergine", "peberfrugt"]
+vegetables = ["broccoli", "gulerødder", "squash", "spinat", "tomater", "aubergine", "peberfrugt"]
 
 # Liste med kød
 meats = ["kylling", "oksekød", "svinekød", "lam"]
@@ -29,7 +29,7 @@ meats = ["kylling", "oksekød", "svinekød", "lam"]
 fishes = ["laks", "tun", "torsk", "rødspætte"]
 
 # Liste med krydderier
-spices = ["oregano", "timian", "rosmarin", "karry", "kanel", "spidskommen"]
+spices = ["oregano", "timian", "rosmarin", "karry", "kanel", "koriander", "spidskommen"]
 
 # Generer og udskriv opskrift
 recipe = generate_recipe(vegetables, meats, fishes, spices)
