@@ -26,7 +26,7 @@ vegetables = ["broccoli", "gulerødder", "squash", "spinat", "tomater", "aubergi
 meats = ["kylling", "oksekød", "svinekød", "lam"]
 
 # Liste med fisk
-fishes = ["laks", "tun", "torsk", "rødspætte"]
+fishes = ["laks", "tun", "torsk", "rødspætte", "kulmule"]
 
 # Liste med krydderier
 spices = ["oregano", "timian", "rosmarin", "karry", "kanel", "koriander", "spidskommen"]
