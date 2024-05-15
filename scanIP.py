@@ -8,6 +8,6 @@ def ping(host):
     else:
         return f"{host} is offline"
     
-host_to_scan = "dr.dk"
+host_to_scan = "kea.dk"
 result = ping(host_to_scan)
 print(result)
