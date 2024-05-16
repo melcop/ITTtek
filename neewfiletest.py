@@ -9,6 +9,7 @@ print(num2)
 # Test 2 - Dictionary
 x = {1: "a", 2: "b"}
 y = x.keys()
+x.pop(3, "f")
 print(y)
 
 # Test 3 
