@@ -8,3 +8,8 @@ z.append(24)
 z.extend("as")
 z.remove(x)
 print(z)
+
+print("--------------------------")
+lst = ['P', 20, 'Q', 4.5]
+item = iter(lst)
+print(next(item))
