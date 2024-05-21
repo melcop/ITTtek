@@ -12,4 +12,6 @@ print(z)
 print("--------------------------")
 lst = ['P', 20, 'Q', 4.5]
 item = iter(lst)
+lst.append(23)
+print(lst)
 print(next(item))
