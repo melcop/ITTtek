@@ -38,3 +38,5 @@ print("Vindere af hver gruppe:")
 for group_name, group_teams in teams.items():
     winners = play_group(group_teams)
     print(f"{group_name}: {', '.join([team for team, points in winners])}")
+
+print(group_winners)
