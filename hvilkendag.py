@@ -1,6 +1,6 @@
 import random
 
-dagnr = random.randint(1,8)
+dagnr = random.randint(1,7)
 
 
 if dagnr == 1:
