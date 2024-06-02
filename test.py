@@ -17,6 +17,8 @@ print(list3 < list4)
 my_list = [1, 2, 3, 4, 5, 6, 7]
 result = my_list[1:4:2]
 print(result)
+result.reverse
+print(result)
 
 for i in range(11, 2, -3):
     for j in range(10, 2, -2):
