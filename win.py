@@ -5,5 +5,5 @@ if number == 2:
     print("Big win!")
 elif number == 1:
     print("Small win!")
-else:
+elif number == 3:
     print("lose!")
