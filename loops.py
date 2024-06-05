@@ -10,3 +10,5 @@ while tal > 0:
     else:
         print("Mere end 10")
     tal -= -1
+    tal +=  2
+    print(tal)
