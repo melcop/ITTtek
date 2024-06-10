@@ -3,6 +3,7 @@ b = 0.2
 c = 0.3
 print(a + b == c)
 print(a//c)
+print(1//c//1)
 
 print("-------")
 
