@@ -9,6 +9,6 @@ def countdown_timer(seconds):
         seconds -= 1
 
     print("Tid er gået!")
-
+print("tid er gået!!")
 # Brug nedtællingsuret ved at angive antal sekunder
 countdown_timer(1200)  # Nedtælling fra 20 minutter
