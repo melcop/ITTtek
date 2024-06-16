@@ -13,6 +13,11 @@ d.remove(1)
 print(d)
 d.append("aaaa")
 d.append("bbb")
+
+print("---------------")
+print(d.index(2))
+print("---------------")
+
 print(d)
 d.clear()
 print(d)
