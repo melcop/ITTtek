@@ -8,7 +8,6 @@ def countdown_timer(seconds):
         time.sleep(1)
         seconds -= 1
 
-    print("Tid er gået!")
 print("tid er gået!!")
 # Brug nedtællingsuret ved at angive antal sekunder
-countdown_timer(420)  # Nedtælling fra 7 minutter
+countdown_timer(180)  # Nedtælling fra 3 minutter
