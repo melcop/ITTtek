@@ -10,6 +10,7 @@ class MCP3021:
     def readRaw(self):
         # Reads word (16 bits) as int
         rd = self.bus.read_word_data(self.address, 0)
+        print(rd)
         # Exchanges high and low bytes
         data = ((rd & 0xFF) << 8) | ((rd & 0xFF00) >> 8)
         # Ignores two least significiant bits
