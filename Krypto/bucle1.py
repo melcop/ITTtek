@@ -16,5 +16,5 @@ if password == 'codigo' and specialpin == '23':
     print('Accesso autorizado')
 else:
     print('Acceso denegado')
-    time.sleep(5)
+    time.sleep(10)
     print('Go away!')
