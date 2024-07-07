@@ -4,7 +4,7 @@ for letra in 'DAVIDS':
 
 
 texto = input('introduce un texto: ')
-
+print("text is: ", texto)
 for simbolo in texto.lower():
     print(simbolo)
     
