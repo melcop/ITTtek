@@ -13,4 +13,6 @@ s.append(z)
 print(s)
 print("-------")
 s.append(s)
+s.clear
+s.append("aa")
 print(s)
