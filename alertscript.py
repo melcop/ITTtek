@@ -8,4 +8,4 @@ if __name__ == "__main__":
             message = "Take a break! It has been an hour!",
             timeout = 12
         )
-        time.sleep(2600)
+        time.sleep(1600)
