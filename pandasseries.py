@@ -1,5 +1,5 @@
 import pandas as pd
-l = [10,20,30,40,50,60]
+l = [10,20,30,40,50,60,70]
 series = pd.Series(l)
 series[1:5] = 70
 print(series)
