@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 # Sample data
-data = [2, 7, 2, 15, 9, 12, 4, 11, 8, 13, 6, 4]
+data = [2, 2, 15, 9, 12, 4, 11, 8, 13, 6, 4]
 
 # Create boxplot
 plt.boxplot(data)
