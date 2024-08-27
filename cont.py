@@ -13,3 +13,5 @@ print(b-1)
 print(b-a+2)
 
 print(a*a*b)
+
+print("echo")
