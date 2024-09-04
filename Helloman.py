@@ -7,3 +7,6 @@ print(c-2)
 print(c//a)
 print(b//a)
 print(a%b)
+
+for a in range(6):
+    print("test")
