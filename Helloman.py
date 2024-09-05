@@ -10,3 +10,5 @@ print(a%b)
 
 for a in range(6):
     print("test")
+    a-1
+    print(a)
