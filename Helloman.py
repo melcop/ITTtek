@@ -14,3 +14,8 @@ for a in range(6):
     a-1
     print(a)
     print("test")
+
+if a ==b:
+    print("good")
+else:
+    print("a is not b")
