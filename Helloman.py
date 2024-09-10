@@ -19,3 +19,7 @@ if a ==b:
     print("good")
 else:
     print("a is not b")
+
+v = 'lousang'
+index = v.find('n')
+print(index)
