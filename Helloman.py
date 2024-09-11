@@ -22,4 +22,6 @@ else:
 
 v = 'lousang'
 index = v.find('n')
+index1 = v.find('r')
 print(index)
+print(index1)
