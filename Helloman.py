@@ -26,3 +26,5 @@ index1 = v.find('r')
 print(index)
 print(index1)
 print(v)
+
+print("ingen test i dag")
