@@ -28,3 +28,5 @@ print(index1)
 print(v)
 
 print("ingen test i dag")
+
+print(max(10, 16, 30, 21, 23, 40))
