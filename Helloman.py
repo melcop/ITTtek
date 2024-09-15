@@ -30,3 +30,4 @@ print(v)
 print("ingen test i dag")
 
 print(max(10, 16, 30, 21, 23, 40))
+print(min(11,22,55,7,3))
