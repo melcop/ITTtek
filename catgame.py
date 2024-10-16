@@ -1,4 +1,5 @@
 import random
+from time import sleep
 
 lives = 9
 
@@ -13,3 +14,4 @@ print("----------------")
 print(words.index('tent'))
 words.insert(2, 'fork')
 print(words)
+sleep(2)
