@@ -21,3 +21,6 @@ words.pop(1)
 print(words.index('tent'))
 words.remove('shoes')
 print(words)
+
+if words.index('tent'):
+    print('yes')
