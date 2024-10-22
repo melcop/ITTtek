@@ -24,3 +24,5 @@ print(words)
 
 if words.index('tent'):
     print('yes')
+else:
+    print('no')
