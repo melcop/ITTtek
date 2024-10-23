@@ -22,7 +22,7 @@ print(words.index('tent'))
 words.remove('shoes')
 print(words)
 
-if words.index('tent'):
+if 'tent' in words:
     print('yes')
 else:
     print('no')
