@@ -24,5 +24,7 @@ print(words)
 
 if 'tent' in words:
     print('yes')
+    words.remove('tent')
 else:
     print('no')
+print(words)
