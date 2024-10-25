@@ -28,3 +28,6 @@ if 'tent' in words:
 else:
     print('no')
 print(words)
+
+things = {'apple':1, 'orange':2}
+print(things)
