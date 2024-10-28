@@ -33,3 +33,5 @@ things = {'apple':1, 'orange':2, 'mango':3}
 print(things)
 print(things.values())
 print(things.get('apple'))
+a = 3,141592
+print(a)
