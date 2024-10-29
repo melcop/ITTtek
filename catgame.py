@@ -34,4 +34,4 @@ print(things)
 print(things.values())
 print(things.get('apple'))
 a = 3,141592
-print(a)
+print(a.index(3))
