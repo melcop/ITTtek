@@ -3,7 +3,7 @@ from time import sleep
 
 lives = 9
 
-words = ['pizza', 'fairy', 'shoes', 'tent', 'teeth', 'shirt', 'shirt','otter', 'plane', 'plate','hat']
+words = ['pizza', 'hotdog','fairy', 'shoes', 'tent', 'teeth', 'shirt', 'shirt','otter', 'plane', 'plate','hat']
 secret_word = random.choice(words)
 print(secret_word)
 print("--------------")
