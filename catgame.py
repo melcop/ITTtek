@@ -29,7 +29,7 @@ else:
     print('no')
 print(words)
 
-things = {'apple':1, 'orange':2, 'mango':3}
+things = {'apple':1, 'orange':2, 'mango':3, 'banana':4}
 print(things)
 print(things.values())
 print(things.get('apple'))
