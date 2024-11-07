@@ -33,5 +33,6 @@ things = {'apple':1, 'orange':2, 'mango':3, 'banana':4}
 print(things)
 print(things.values())
 print(things.get('apple'))
-a = 3, 14159212, 3
-print(a.index(3))
+a = 3, 14159212, 2
+b = 3.42
+print(a.index(2)+b)
