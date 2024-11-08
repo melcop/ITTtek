@@ -23,6 +23,7 @@ def validate_login(username, password):
         return False
 
 print(validate_login('user1', 'password1'))  
-print(validate_login('user2', 'password3'))  
+print(validate_login('user2', 'password3')) 
+print(validate_login('user3', 'password3')) 
 
 conn.close()
