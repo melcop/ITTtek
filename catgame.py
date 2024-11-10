@@ -19,7 +19,7 @@ words.sort()
 print(words)
 words.pop(1)
 print(words.index('tent'))
-words.remove('shoes')
+words.remove('hotdog')
 print(words)
 
 if 'tent' in words:
