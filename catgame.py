@@ -34,5 +34,5 @@ print(things)
 print(things.values())
 print(things.get('apple'))
 a = 3, 14159212, 2
-b = 3.42
+b = 3.4233
 print(a.index(2)+b)
