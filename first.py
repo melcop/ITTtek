@@ -12,3 +12,7 @@ c = b + a
 print("-----------------")
 
 print(c)
+
+c = c + 3
+
+print(c)
