@@ -15,4 +15,4 @@ print(c)
 
 c = c + 3
 
-print(c)
+print(c+c)
