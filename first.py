@@ -13,6 +13,6 @@ print("-----------------")
 
 print(c)
 
-c = c + 3
+c = c + 3 * 2
 
 print(c+c)
