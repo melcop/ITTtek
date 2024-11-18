@@ -4,5 +4,7 @@ if vejr == 'regn':
     print('Husk paraply!')
 elif vejr == 'sne':
     print('Husk handsker!')
+elif vejr == 'sol':
+    print('Smukt vejr')
 else:
-    print('Husk solbriller!')
+    print('Du er fucked!!')
