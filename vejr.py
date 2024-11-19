@@ -7,4 +7,4 @@ elif vejr == 'sne':
 elif vejr == 'sol':
     print('Smukt vejr')
 else:
-    print('Du er fucked!!')
+    print('Du er fucked ;-)!!')
