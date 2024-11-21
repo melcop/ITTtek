@@ -5,6 +5,6 @@ if vejr == 'regn':
 elif vejr == 'sne':
     print('Husk handsker og halstørklæde!')
 elif vejr == 'sol':
-    print('Smukt vejr')
+    print('Smukt vejr!')
 else:
     print('Du er fucked ;-)!!')
