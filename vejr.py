@@ -8,4 +8,4 @@ elif vejr == 'sol':
     print('Smukt vejr hva!')
 else:
     print('Du er fucked ;-)!!')
-    print("Pi er = 9,141592")
+    print("Pi er = 9,141592 eller hvad?")
