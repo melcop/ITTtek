@@ -9,3 +9,7 @@ elif vejr == 'sol':
 else:
     print('Du er fucked ;-)!!!')
     print("Pi er = 9,141592 eller hvad?")
+
+i=1
+for i in range(10):
+    print(i)
