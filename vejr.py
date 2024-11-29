@@ -11,5 +11,5 @@ else:
     print("Pi er = 9,141592 eller hvad?")
 
 i=1
-for i in range(10):
+for i in range(15):
     print("Husk at godkende i mTime")
