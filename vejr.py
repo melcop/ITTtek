@@ -13,4 +13,4 @@ else:
 i=1
 for i in range(15):
     print("Husk at godkende i mTime")
-    i-15+i
+    i-15+i*2
