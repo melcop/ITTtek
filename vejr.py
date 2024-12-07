@@ -5,7 +5,7 @@ if vejr == 'regn':
 elif vejr == 'sne':
     print('Husk handsker og halstørklæde!')
 elif vejr == 'sol':
-    print('Smukt vejr hva!')
+    print('Smukt vejr hvad!')
 else:
     print('Du er fucked ;-)!!!')
     print("Pi er = 9,141592 eller hvad?")
