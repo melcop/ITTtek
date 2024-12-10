@@ -13,5 +13,5 @@ else:
 i=1
 for i in range(15):
     print("Husk at godkende i mTime")
-    a = i-15+i*2/2 -i /100
+    a = i-15+i*2/2 -i /1000
     print(a)
