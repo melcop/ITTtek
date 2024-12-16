@@ -36,7 +36,7 @@ t = t[::3]
 print(t)
 
 print("----------------------------") 
-p='Love for coding'
+p='Love for coding 4ever!'
 print(p[4],p[5])
 
 print("----------------------------") 
