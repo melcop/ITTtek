@@ -70,6 +70,7 @@ elif num > 1:
         if (num % i) == 0:
             # if factor is found, set flag to True
             flag = True
+            print(flag)
             # break out of loop
             break
 
