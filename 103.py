@@ -71,8 +71,10 @@ elif num > 1:
             # if factor is found, set flag to True
             flag = True
             print(flag)
+            print("True flag")
             # break out of loop
             break
+
 
     # check if flag is True
     if flag:
