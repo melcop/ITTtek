@@ -94,6 +94,7 @@ print(b)
 print("----------------------------")
 user_in = str(input("Enter: "))
 text = user_in.split()
+print(text)
 aco = " "
 for i in text:
     aco =aco+str(i[0].upper())
