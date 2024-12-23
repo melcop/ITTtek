@@ -85,12 +85,13 @@ elif num > 1:
 print("----------------------------")
 a=15
 b=10
+c=1
 print(a)
 result = a if a < b else b
 print(result)
-a=b
+a=b+c
 print(b)
-
+print(a)
 print("----------------------------")
 user_in = str(input("Enter: "))
 text = user_in.split()
