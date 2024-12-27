@@ -6,3 +6,6 @@ c = [1, 2]
 antal.append(c)
 print(antal)
 print(c)
+c.append(3)
+print(c)
+print(antal)
