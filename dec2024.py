@@ -9,3 +9,5 @@ print(c)
 c.append(3)
 print(c)
 print(antal)
+dict = {'aa':3}
+print(dict)
