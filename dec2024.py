@@ -10,4 +10,4 @@ c.append(3)
 print(c)
 print(antal)
 dict = {'aa':3}
-print(dict)
+print(dict.get(0))
