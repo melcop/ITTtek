@@ -1,5 +1,5 @@
 a = 1
-b = 0
+b = 2
 antal = [a, b]
 print(antal)
 c = [1, 2]
