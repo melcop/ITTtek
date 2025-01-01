@@ -6,7 +6,7 @@ c = [1, 2]
 antal.append(c)
 print(antal)
 print(c)
-c.append(3)
+c.append(4)
 print(c)
 print(antal)
 dict = {'aa':3}
