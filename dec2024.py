@@ -9,5 +9,6 @@ print(c)
 c.append(4)
 print(c)
 print(antal)
-dict = {'aa':3}
+dict = {'aa':3, 'bb':4}
 print(dict.get('aa'))
+print(dict.get('bb'))
