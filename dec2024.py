@@ -1,7 +1,7 @@
 a = 1
 b = 2
 antal = [a, b]
-print(antal)
+print(a)
 c = [1, 2]
 antal.append(c)
 print(antal)
