@@ -1,6 +1,7 @@
 a = 1
 b = 2
-antal = [a, b]
+d = b
+antal = [a, b, d]
 print(a/b)
 c = [1, 2]
 antal.append(c)
