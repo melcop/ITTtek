@@ -2,7 +2,7 @@ a = 1
 b = 2
 d = b
 antal = [a, b, d]
-print(a/b)
+print(a/b/d)
 c = [1, 2]
 antal.append(c)
 print(antal)
