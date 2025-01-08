@@ -13,3 +13,4 @@ print(antal)
 dict = {'aa':3, 'bb':4}
 print(dict.get('aa'))
 print(dict.get('bb'))
+print("end")
