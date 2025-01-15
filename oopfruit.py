@@ -5,5 +5,5 @@ class Fruit:
 class Apple(Fruit):
     def __init__(self):
         print('2')
-
+print("test2")
 obj = Apple()
