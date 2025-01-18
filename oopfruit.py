@@ -7,4 +7,5 @@ class Apple(Fruit):
         print('2')
 print("test3")
 obj = Apple()
-print(obj)
+c= 12
+print(c)
