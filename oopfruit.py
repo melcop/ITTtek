@@ -13,4 +13,4 @@ magic = []
 magic.append(c)
 magic.append(Apple)
 print(magic)
-print(magic)
+print(magic.count(12))
