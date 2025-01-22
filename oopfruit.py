@@ -7,7 +7,7 @@ class Apple(Fruit):
         print('2')
 print("test3")
 obj = Apple()
-c= 12
+c= 120
 print(c)
 magic = []
 magic.append(c)
