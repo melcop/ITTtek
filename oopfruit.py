@@ -11,7 +11,7 @@ c= 120
 print(c)
 magic = []
 magic.append(c)
-magic.append(12)
+magic.append(120)
 magic.append(12)
 magic.append(12)
 magic.append(Apple)
