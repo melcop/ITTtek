@@ -13,6 +13,7 @@ magic = []
 magic.append(c)
 magic.append(12)
 magic.append(12)
+magic.append(12)
 magic.append(Apple)
 print(magic)
 print(magic.count(12))
