@@ -10,6 +10,6 @@ seconds, hundredths = rest.split(".")
 # Convert the strings to numbers with the help of another BIF called 
 # "int", then perform the calculation
 converted_time = (int(minutes) * 60 * 100) + (int(seconds) * 100) + int(hundredths)
-
+print("test")
 # Display the result
 print(converted_time)
