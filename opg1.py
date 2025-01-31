@@ -1,0 +1,2 @@
+s="dgdh"
+print(s)
