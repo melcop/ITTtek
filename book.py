@@ -9,6 +9,7 @@ turtle.pensize(4)
 print("need")
 sleep(5)
 print("speed")
+sleep(5)
 
 # Hacks and tweaks s.105
 pen_colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
