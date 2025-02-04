@@ -4,6 +4,7 @@ try:
     cur = conn.cursor()
     cur.execute('SELECT * FROM COMPANY')
     rset = cur.fetchall()
+    print(rset)
     print(f'Row-count : { len(rset) } ')
     for row in rset:
         print(f'name={row[1]}')

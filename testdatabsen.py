@@ -5,7 +5,7 @@ try:
     cur = conn.cursor()
     cur.execute('SELECT * FROM COMPANY Limit 3')
     for row in cur:
-        print(f'id ={row[0]:2d} salary={row[4]}')
+        print(row)
 except sqlite3.Error as e:
     print(f'Error calling SQL: "{e}"')
 finally:
