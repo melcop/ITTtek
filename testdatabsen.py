@@ -3,7 +3,7 @@ import sqlite3
 conn = sqlite3.connect('testDB.db')
 try:
     cur = conn.cursor()
-    cur.execute('SELECT * FROM COMPANY Limit 3')
+    cur.execute('SELECT * FROM COMPANY Limit 2')
     for row in cur:
         print(row)
 except sqlite3.Error as e:
