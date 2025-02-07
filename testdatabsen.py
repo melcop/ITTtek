@@ -9,4 +9,6 @@ try:
 except sqlite3.Error as e:
     print(f'Error calling SQL: "{e}"')
 finally:
-    conn.close() # Close connection to server
+    conn.close()
+    
+     # Close connection to server
