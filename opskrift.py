@@ -9,7 +9,7 @@ def generate_recipe(vegetables, meats, spices):
     return recipe
 
 # Liste med grøntsager
-vegetables = ["broccoli", "gulerødder", "løg", "spinat", "tomater", "aubergine", "peberfrugt"]
+vegetables = ["broccoli", "gulerødder", "hvidløg", "løg", "spinat", "tomater", "aubergine", "peberfrugt"]
 
 # Liste med kød
 meats = ["kylling", "oksekød", "svinekød", "lam", "laks", "tun"]
