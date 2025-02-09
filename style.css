@@ -5,3 +5,7 @@ h1 {
     color: navy;
     margin-left: 20px;
 }
+.style1 {
+    color: rgb(156, 6, 0);
+    font-family: monospace;
+}
