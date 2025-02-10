@@ -11,8 +11,8 @@ def generate_recipe(vegetables, meats, spices):
 # Liste med grøntsager
 vegetables = ["broccoli", "gulerødder", "hvidløg", "løg", "spinat", "tomater", "aubergine", "peberfrugt"]
 
-# Liste med kød
-meats = ["kylling", "oksekød", "svinekød", "lam", "laks", "tun"]
+# Liste med kød eller fisk
+meats = ["kylling", "oksekød", "svinekød", "lam", "laks", "tun", "torsk"]
 
 # Liste med krydderier
 spices = ["oregano", "timian", "rosmarin", "karry", "kanel", "spidskommen"]
