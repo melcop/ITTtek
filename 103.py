@@ -78,7 +78,7 @@ elif num > 1:
 
     # check if flag is True
     if flag:
-        print(num, "is NOT a prime number")
+        print(num, "is NOT NOT NOT a prime number")
     else:
         print(num, "IS a prime number")
 
