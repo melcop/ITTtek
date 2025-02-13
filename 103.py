@@ -80,7 +80,7 @@ elif num > 1:
     if flag:
         print(num, "is NOT a prime number")
     else:
-        print(num, "IS a prime number")
+        print(num, "IS a Prime number")
 
 print("----------------------------")
 a=15
