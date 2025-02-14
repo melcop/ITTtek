@@ -8,7 +8,7 @@ dht_device = adafruit_dht.DHT11(board.D4)
 try:
     while True:
         try:
-            # Læs temperatur og fugtighed fra DHT11
+            # Læser temperatur og fugtighed fra DHT11
             temperature = dht_device.temperature
             humidity = dht_device.humidity
 
