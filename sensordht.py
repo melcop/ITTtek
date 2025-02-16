@@ -20,7 +20,7 @@ try:
             # Ignorer midlertidige fejl (typisk for DHT-sensorer)
             print(f"Fejl ved læsning af sensor: {error.args[0]}")
 
-        time.sleep(2.0)  # Vent 2 sekunder mellem målinger
+        time.sleep(2.5)  # Vent 2,5 sekunder mellem målinger
 
 except KeyboardInterrupt:
     print("Afslutter programmet...")
