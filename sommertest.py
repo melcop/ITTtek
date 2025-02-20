@@ -7,3 +7,4 @@ d =[1, 2]
 d.append(z)
 print(d)
 print(d.index(2))
+d.append(x)
