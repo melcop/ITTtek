@@ -1,4 +1,4 @@
 s='dgdh'
 print(s)
 print(s.capitalize())
-print(s.count('d'))
+print(s.count('g'))
