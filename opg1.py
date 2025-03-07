@@ -6,3 +6,4 @@ print("forsætter ...")
 
 scaninput = input("Name: ")
 print(scaninput)
+print("test")
